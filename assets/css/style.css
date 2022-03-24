@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    padding:0;
+    height:100%;
+    width:100%;
+    color: rgb(255, 255, 255) !important;
+    background: rgb(33, 36, 45) !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(218, 218, 218);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(67, 211, 204);
+}
+::-webkit-scrollbar-track {
+    background: rgba(240, 240, 240, 0,1);
+    border-radius: 0px;
+}
+
+.bg-main {
+    background: linear-gradient(23deg, rgb(105 68 217 / 24%) 15%, rgb(89 215 174 / 17%) 100%);
+}
+
+.bg-discord {
+    background: linear-gradient(17deg, rgb(63 80 255 / 31%) 15%, rgb(74 89 255 / 79%) 100%);
+}
+
+.bg-hyland {
+    background: linear-gradient(331deg, rgb(96 145 181 / 16%) 15%, rgb(104 115 169 / 27%) 100%);
+}
+
+.bg-hytale {
+    background: linear-gradient(331deg, rgb(96 145 181 / 16%) 15%, rgb(104 115 169 / 27%) 100%);
+}
+
+.bg-twitch {
+    background: linear-gradient(17deg, rgb(33 24 64 / 85%) 15%, rgb(92 31 173 / 91%) 100%);
+}
+
+.bg-youtube {
+    background: linear-gradient(17deg, rgb(46 35 35 / 72%) 15%, rgb(173 31 31 / 37%) 100%);
+}
+
+.bg-features {
+    background: linear-gradient(17deg, rgb(40 48 72 / 72%) 15%, rgb(28 31 51 / 91%) 100%);
+}
+
+.bg-footer {
+    background: linear-gradient(17deg, rgb(40 48 72 / 45%) 15%, rgb(36 65 78 / 45%) 100%);
+}
+
+.bgi-main {
+    background: url(../images/bg-main.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+}
+
+.bgi-hyland {
+    background: url(../images/bg-hyland.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.3;
+    height: 870px;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.bgi-hytale {
+    background: url(../images/bg-hytale.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.3;
+    height: 802px;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.bgi-discord {
+    background: url(../images/bg-discord.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.3;
+    height: 281px;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.bgi-youtube {
+    background: url(../images/bg-youtube.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.3;
+    height: 409px;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.bgi-features {
+    background: url(../images/bg-features.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.8;
+    height: 568px;
+    width: 100%;
+    filter: blur(4px);
+    border-top: 3px solid rgb(0,0,0);
+}
+
+.bgi-twitch {
+    background: url(../images/bg-twitch.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -9;
+    opacity: 0.7;
+    height: 359px;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.footer {
+    text-align: center;
+    font-size: 17px;
+    color: rgb(105 122 139);
+    font-weight: lighter;
+}
+
+.footer b {
+    font-weight: bold;
+}
+
+.bg-footer .page {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.page {
+    padding: 100px !important;
+}
+
+.page-window {
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer {
+    text-align: center;
+    font-size: 19px;
+    color: rgb(79 85 102);
+}
+
+.top-dark {
+    background: rgb(33 35 45 / 63%);
+    backdrop-filter: blur(100px);
+    border-bottom: 1px solid rgb(0 0 0 / 24%);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: rgb(255 255 255) !important;
+}
+
+a.nav-link {
+    border-radius: 3px;
+    margin-left: 12px;
+    color: rgb(255 255 255 / 49%);
+    padding: 10px 20px !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Lato', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+a.nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgb(255 131 164);
+}
+
+.logo {
+    padding-top: 220px;
+    text-align: center;
+}
+
+.logo img {
+    filter: drop-shadow(0px 0px 30px rgba(20, 20, 20, 0.40));
+}
+
+.eslogan {
+    font-size: 37px;
+    color: rgb(255 255 255);
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 21%);
+    width: fit-content;
+    margin: 20px auto 8px auto;
+    font-family: 'Lato', Courier, monospace;
+    font-weight: 900;
+}
+
+.first {
+    font-size: 16px;
+    color: rgb(87 242 255);
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 21%);
+    width: fit-content;
+    margin: 0px auto 50px auto;
+    font-family: 'Lato', Courier, monospace;
+    font-weight: 100;
+}
+
+.first b {
+    font-weight: 900;
+    color: rgb(255 255 255);
+}
+
+.btn-discord a {
+    background: rgb(0 0 0 / 10%);
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    padding: 28px 30px 23px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', Courier, monospace;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn-discord a:hover {
+    background: rgb(88 101 242 / 33%);
+    color: rgb(255 255 255);
+}
+
+.btn-discord a img {
+    width: 43px;
+    margin-right: 13px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+
+.btn-youtube a {
+    background: rgb(255 255 255 / 9%);
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    padding: 28px 30px 23px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', Courier, monospace;
+    display: block;
+    width: fit-content;
+    margin: 79px auto 46px auto;
+}
+
+.btn-youtube a:hover {
+    background: rgb(210 63 63 / 33%);
+    color: rgb(255 255 255);
+}
+
+.btn-youtube a img {
+    width: 43px;
+    margin-right: 13px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+
+.btn-twitch a {
+    background: rgb(0 0 0 / 10%);
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    padding: 28px 30px 23px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', Courier, monospace;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.btn-twitch a:hover {
+    background: rgb(149 84 255 / 33%);
+    color: rgb(255 255 255);
+}
+
+.btn-twitch a img {
+    width: 43px;
+    margin-right: 13px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+
+.title-desc {
+    font-family: 'Lato', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(255 255 255 / 40%);
+    letter-spacing: 1px;
+}
+
+.title {
+    font-family: 'Lato', Courier, monospace;
+    font-weight: 700;
+    font-size: 37px;
+    color: rgb(255 255 255);
+    width: 690px;
+}
+
+.title b {
+    color: rgb(67, 211, 204);
+}
+
+iframe {
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 42%);
+}
+
+.dev {
+    z-index: 999;
+    position: relative;
+    background: rgb(133 0 255 / 65%);
+    width: fit-content;
+    padding: 12px 22px 6px 22px;
+    font-size: 19px;
+    margin: 40px 59px -47px;
+    border-radius: 100px;
+    font-weight: bold;
+    float: right;
+    backdrop-filter: blur(5px);
+    font-family: 'Lato', Courier, monospace;
+}
+
+.video {
+    margin: 50px 0;
+}
+
+.description {
+    font-size: 23px;
+    font-weight: lighter;
+    color: rgb(255 255 255 / 80%);
+}
+
+.description b {
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    background: rgb(0 0 0 / 18%);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.asset-1 {
+    position: absolute;
+    right: 90px;
+    margin-top: 0px;
+    width: 552px;
+}
+
+.asset-2 {
+    width: 513px;
+    position: absolute;
+    margin-left: -207px;
+    margin-top: 47px;
+}
