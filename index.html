@@ -33,109 +33,100 @@
     </script>
 </head>
 <body>
+
+    <div id="particles"></div>
+
     <div class="bg-main">
-        <div class="bgi-main"></div>
+        <div id="background" class="background"></div>
         <div class="container page-window">
             <div class="logo"><img src="./assets/images/hyland-logo.png"></div>
             <div class="eslogan">Tu comunidad y servidor de Hytale</div>
-            <div class="first">Primera comunidad hispana de Hytale</div>
-        </div>
-    </div>
-    <div class="bg-discord">
-        <div class="bgi-discord"></div>
-        <div class="container page">
-            <div class="btn-discord">
-                <a href="https://discord.gg/Y4MmA8P" target="_blank">
-                    <img src="./assets/images/discord-logo.svg"> Accede a nuestra comunidad en Discord
-                </a>
+            <div class="first">
+                Primera comunidad hispana de Hytale
+                <span>Fundado el 15 de Diciembre de 2018</span>
             </div>
+            <div class="arrows"><img src="./assets/images/arrows.png" /></div>
         </div>
     </div>
-    <div class="bg-hyland">
-        <div class="bgi-hyland"></div>
-        <div class="container page">
-            <div class="hyland">
-                <div class="container px-4 py-5">
-                    <div class="row">
-                        <div class="col-8">
-                            <h6 class="title-desc pb-2">Qué es Hyland</h6>
-                            <h2 class="title pb-2">Adéntrate en la comunidad de <b>Hyland</b></h2>
-                            <div class="description">Hyland fue fundado el 15 de Diciembre de 2018, convirtiéndose en la primera comunidad hispana de Hytale. Tendremos servidores de diferentes temáticas como Survival RPG con misiones, Creativo para crear lo que quieras sin límites, Hardcore para hacer pvp sin normas, entre otros, creados de forma única y con ideas totalmente propias.<br><br>Hyland está creado por un programador y administrador de sistemas con una larga trayectoria creando comunidades desde 2011 de juegos como Minecraft. Si eres fan de Hytale y quieres estar en una comunidad activa, bien hecha desde sus cimientos y bien administrada, Hyland es tu comunidad.</div>
-                        </div>
-                        <div class="col-4">
-                            <img id="asset-1" class="asset-1" src="./assets/images/asset-1.png" />
-                        </div>
+
+    <main>
+
+        <div class="container py-5">
+            <div class="mb-4 bgi-box-1">
+                <div class="p-5 bg-darker rounded-3">
+                    <div class="container-fluid py-3">
+                        <h1 class="display-5 fw-bold">Hyland <span>Tu comunidad de Hytale</span></h1>
+                        <p class="col-md-8 fs-5 mt-4 text-naun">Hyland es una comunidad de Hytale en la que crearemos una red de servidores con diferentes modos de juego. Hemos creado esta comunidad para que los fans de hytale puedan disfrutar del juego en una comunidad sólida con un equipo profesional.</p>
+                        <p class="col-md-8 fs-5 mt-4 text-naun">Contamos con una administración experta en la creación de comunidades de videojuegos y programadores cualificados para crear lo que necesitemos.</p>
+                        <p class="col-md-8 fs-5 mt-4 text-naun">Si lo que quieres es disfrutar de Hytale y jugar a modos de juego divertidos y únicos, no esperes más y entra a nuestro servidor de Discord.</p>
+                        <img src="./assets/images/crawler.png" class="crawler" />
+                        <span id="members" class="discord-members"></span>
+                        <a class="btn btn-primary btn-lg btn-discord mt-4" type="button"><img src="./assets/images/discord-logo.svg"> Entra a nuestra comunidad en Discord!</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="bg-twitch">
-        <div class="bgi-twitch"></div>
-        <div class="container page">
-            <div class="btn-twitch">
-                <a href="https://twitch.tv/hyland_esp" target="_blank">
-                    <img src="./assets/images/twitch-logo.svg"> Síguenos en Twitch para ver nuestros streams
-                </a>
+
+            <div class="mb-4 bgi-box-1 mt-5">
+                <div class="p-5 bg-darker rounded-3">
+                    <div class="container-fluid py-3">
+                        <h2>Hyland Network</h2>
+                        <p class="col-md-12 fs-5 mt-3 text-naun">En Hyland vamos a crear una red de servidores de diferentes temáticas completamente únicas. Habrá dos tipos de servidores, los servidores comunitarios y los servidores arcade, cada uno de ellos con una jugabilidad y temática completamente diferente.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="bg-hytale">
-        <div class="bgi-hytale"></div>
-        <div class="container page">
-            <div class="hytal">
-                <div class="container px-4 py-5">
-                    <div class="row">
-                        <div class="col-4">
-                            <img id="asset-2" class="asset-2" src="./assets/images/asset-2.png" />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm box-1">
+                        <div class="mb-4 bgi-box-2 mt-4">
+                            <div class="p-5 bg-darker rounded-3">
+                                <div class="container-fluid py-3">
+                                    <h2>Servidores Comunitarios</h5>
+                                    <p class="col-md-12 fs-5 mt-2 text-naun">Los servidores comunitarios se centrarán en ofrecer un gameplay para aquellos que quieran disfrutar del contenido de Hytale y acumular recursos, crear sus construcciones, etc. Organizaremos eventos mensuales y semanales, desbloquearás contenidos con misiones y mucho más.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-8">
-                            <h6 class="title-desc pb-2">Qué es Hytale</h6>
-                            <h2 class="title pb-2">Adéntrate en el mundo de <b>Hytale</b></h2>
-                            <div class="description">Hytale es un juego Sandbox RPG inspirado en Minecraft que está siendo desarrollado por Hypixel Studios desde el 2015. Hypixel Studios es un estudio de videojuegos de los creadores de Hypixel, la comunidad más grande de servidores de Minecraft. Además, cuentan con la financiación privada de Riot Games, lo que les ha permitido crear el videojuego sin llegar a lanzar un crowdfunding.<br><br>
-                            Hytale está siendo creado pensando completamente en las comunidades y en su personalización haciendo que los jugadores podamos poner mods muy fácilmente, y los administradores de servidores puedan crear servidores totalmente personalizados creando experiencias totalmente únicas.
+                    </div>
+                    <div class="col-sm box-2">
+                        <div class="mb-4 bgi-box-3 mt-4">
+                            <div class="p-5 bg-darker rounded-3">
+                                <div class="container-fluid py-3">
+                                    <h2>Servidores Arcade</h2>
+                                    <p class="col-md-12 fs-5 mt-2 text-naun">Los servidores arcade se centrarán en ofrecer minijuegos para que los jugadores puedan pasar su tiempo libre compitiendo contra los demás jugadores de la comunidad. Organizaremos torneos mensuales para que los jugadores puedan demostrar de lo que son capaces.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="bg-youtube">
-        <div class="bgi-youtube"></div>
-        <div class="container page">
-            <div class="btn-youtube">
-                <a href="https://www.youtube.com/channel/UC3VsWUA1jyUiGQqDfqpXWtg" target="_blank">
-                    <img src="./assets/images/youtube-logo.svg"> Suscríbete a nuestro canal de YouTube
-                </a>
+
+            <div class="links">
+                <span>AFILIADOS</span>
+                <a href="https://servidorhytale.com" target="_blank">Información de Hytale</a>
             </div>
-        </div>
-    </div>
-    <div class="bg-features">
-        <div class="bgi-features"></div>
-        <div class="container page">
-            <div class="features">
-                <div class="container px-4 py-5">
-                    <h6 class="title-desc pb-2">Servidores en continuo desarrollo</h6>
-                    <h2 class="title pb-2">Sistemas originales y profundos para crear <b>la mejor experiencia</b></h2>
-                    <div class="description">En Hyland tendremos sistemas propios que ayudarán a tener una experiencia única en nuestro servidor. No vamos a tener un servidor más con lo típico que tendrán todos los servidores, sino que desarrollaremos nuestros propios mods, modelados, scripts y sistemas para crear algo único que sólo se podrá disfrutar en Hyland.</div>
-                </div>
+
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                    <p class="col-md-4 mb-0 text-footer">
+                        &copy; 2018 - 2022 Hyland. Todos los derechos reservados.
+                    </p>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-muted" href="https://twitter.com/hyland_esp"><img src="./assets/images/twitter.png" /></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://discord.gg/Y4MmA8P"><img src="./assets/images/discord.png" /></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://twitch.tv/hyland_esp"><img src="./assets/images/twitch.png" /></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://youtube.com/channel/UC3VsWUA1jyUiGQqDfqpXWtg"><img src="./assets/images/youtube.png" /></a></li>
+                        <li class="ms-3"><a class="text-muted" href="https://instagram.com/hyland_esp"><img src="./assets/images/instagram.png" /></a></li>
+                    </ul>
+                </footer>
             </div>
+
         </div>
-    </div>
-    <div class="bg-footer">
-        <div class="container page">
-            <div class="footer">
-                <div class="container px-4 py-5">
-                    <b>Hyland</b> © 2018 - 2022
-                </div>
-            </div>
-        </div>
-    </div>
+
+    </main>
 
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="./assets/js/parallax.min.js"></script>
+    <script src="./assets/js/particles.min.js"></script>
     <script src="./assets/js/app.js"></script>
 
 </body>
